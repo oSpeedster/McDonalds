@@ -326,7 +326,7 @@
 
 .banner-content {
     height: 170px;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
 .banner {
@@ -352,7 +352,7 @@
 
 .home-boxs {
     width: 390px;
-    margin-top: 0px;
+    margin-top: -125px;
 }
 
 .home-box {
