@@ -96,6 +96,11 @@
     }
 
     .div002 {
-        height: 570px;
+        height: 800px;
+    }
+
+    .image-mce {
+        margin-top: 0px;
+        margin-right: 0px;
     }
 }
