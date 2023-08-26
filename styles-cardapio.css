@@ -73,6 +73,14 @@
     margin-top: -150px;
 }
 
+.div-y {
+    display: flex;
+}
+
+.h1-y {
+    color: darkred;
+}
+
 .sobremesas {
     background-color: red;
     color: yellow;
@@ -80,6 +88,8 @@
 
 .sobremesa-box {
     margin-top: -20px;
+
+    width: 900px;
 }
 
 .lanche-img {
@@ -104,6 +114,20 @@
         height: 100px;
 
         font-size: 8px;
+    }
+
+    .titulo-sobremesa {
+        margin-top: -740px;
+        margin-right: -18px;
+    }
+
+    .h1-y {
+        color: yellow;
+    }
+
+    .sobremesa-box {
+        margin-top: -460px;
+        width: 350px;
     }
 
 
