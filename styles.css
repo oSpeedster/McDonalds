@@ -10,6 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 /* font-family: 'Lato', sans-serif; */
 
+@import url('https://fonts.cdnfonts.com/css/mcdonalds-helvetica');
+/* font-family: 'McDonalds Helvetica', sans-serif; */
+
 
 * {
     margin: 0;
@@ -150,6 +153,100 @@
     width: 100%;
     height: 550px;
     background-color: yellow;
+
+    display: grid;
+    justify-content: center;
+}
+
+.div2- {
+    height: 900px;
+}
+
+.home-boxs {
+    width: 950px;
+    height: 480px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.home-box {
+    width: 350px;
+    height: 480px;
+    background-color: red;
+
+    border-radius: 10px;
+
+    border: 1px solid #FFC000;
+}
+
+.home-box01 {
+    display: grid;
+    justify-content: center;
+
+}
+
+.home-box02 {
+    display: grid;
+    justify-content: center;
+
+}
+
+.img-box {
+    width: 280px;
+    height: 384px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid #FFC000;
+}
+
+.img-box01 {
+    background-image: url(https://i.pinimg.com/originals/fe/18/45/fe18459bfd11b04e0fecff3794950774.png);
+}
+
+.img-box02 {
+    background-image: url(./assets/Mobile_Banner_Principal_Ifood_18cc9e58f7.jpg);
+}
+
+.btn-box {
+    width: 280px;
+    height: 50px;
+    background-color: #FFC000;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-family: 'McDonalds Helvetica', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 100%);
+
+    border: 1px solid #FFC000;
+}
+
+.home-boxs2 {
+
+    width: 950px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.home-box2 {
+    width: 825px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: red;
+
+    background-image: url(./assets/Banner_Rodapee_estamos_Juntos_01_410x180xp_809c5044aa.png);
+
+    background-size: cover;
+
 }
 
 .footer {
@@ -244,6 +341,40 @@
 
 .div1- {
     height: 15px;
+}
+
+.div2- {
+    height: 530px;
+}
+
+.home-boxs {
+    width: 390px;
+    margin-left: 280px;
+}
+
+.home-box {
+    width: 175px;
+    height: 300px;
+}
+
+.home-box2 {
+    width: 360px;
+    height: 150px;
+
+    margin-top: -150px;
+
+}
+
+.img-box {
+    width: 140px;
+    height: 192px;
+}
+
+.btn-box {
+    width: 140px;
+    height: 50px;
+
+    font-size: 13px;
 }
 
 }
