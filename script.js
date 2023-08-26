@@ -96,11 +96,14 @@ function fecharMenu() {
 
 function menuAbrir() {
     let menuCelular = document.getElementById('menu-celular-aberto')
+    let body = document.querySelector('.body')
 
     if(menuCelular.style.display == 'block') {
         menuCelular.style.display = 'none'
+        body.style.overflow = 'auto'
     } else {
         menuCelular.style.display = 'block'
+        body.style.overflow = 'hidden'
     }
 
 }
