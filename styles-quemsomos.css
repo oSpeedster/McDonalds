@@ -39,7 +39,7 @@
     display: grid;
     justify-items: center;
 
-    height: 350px;
+    height: 410px;
 }
 
 .div-h1 {
@@ -73,7 +73,7 @@
     width: 230px;
     height: 230px;
 
-    margin-top: -250px;
+    margin-top: -280px;
     margin-right: -700px;
 
     border: 1px solid darkred;

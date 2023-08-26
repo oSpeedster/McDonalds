@@ -87,3 +87,22 @@ function dotClicar(number) {
 
 }
 
+
+function fecharMenu() {
+    let menuCelular = document.getElementById('menu-celular-aberto')
+
+    menuCelular.style.display = 'none'
+}
+
+function menuAbrir() {
+    let menuCelular = document.getElementById('menu-celular-aberto')
+
+    if(menuCelular.style.display == 'block') {
+        menuCelular.style.display = 'none'
+    } else {
+        menuCelular.style.display = 'block'
+    }
+
+}
+
+

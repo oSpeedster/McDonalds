@@ -31,11 +31,15 @@
     font-family: 'Lato', sans-serif;
 }
 
-.header nav {
+.header .nav {
     width: 650px;
     display: flex;
     justify-content: space-around;
 
+}
+
+.header .menu-celular, .nav- {
+    display: none;
 }
 
 .header a {
@@ -67,6 +71,10 @@
     width: 100%;
     height: 700px;
     background-color: red;
+}
+
+.div1- {
+    height: 415px;
 }
 
     .banner {
@@ -149,4 +157,61 @@
     font-family: 'Lato', sans-serif;
 
     border-top: 1px solid yellow;
+}
+
+
+
+
+@media(max-width: 768px) {
+
+.header {
+    justify-content: center;
+}
+
+.header .nav {
+    display: none;
+}
+
+.header .menu-celular {
+    width: 50px;
+    height: 50px;
+    margin-right: -150px;
+
+    font-size: 40px;
+    color: yellow;
+
+    display: block;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu-celular-aberto {
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    margin-top: 812px;
+    right: 0;
+    z-index: 1000;
+
+    display: none;
+
+    background-color: red;
+    border-left: 1px solid white;
+    border-top: 1px solid yellow;
+}
+
+.header .nav- {
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+
+    height: 300px;
+}
+
+.mc-logo {
+    margin-right: 110px;
+}
+
 }
