@@ -214,4 +214,26 @@
     margin-right: 110px;
 }
 
+
+.banner-content {
+    height: 170px;
+}
+
+.banner {
+    height: 200px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+}
+
+.dots-content {
+    width: 120px;
+}
+
+.div1- {
+    height: 15px;
+}
+
 }
