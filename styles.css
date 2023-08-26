@@ -119,6 +119,7 @@
         opacity: 80%;
 
         transition: .5s;
+        cursor: pointer;
     }
 
 .sauce {

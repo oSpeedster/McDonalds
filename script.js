@@ -13,6 +13,12 @@ let bannerBackground = bannerContent.style.backgroundImage
 // imagemSlide = parseInt(bannerBackground.match(/(\d+)/)[0])
 
 function passarFotos()  {
+
+    document.getElementById(`dot1`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot2`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot3`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot4`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot5`).style.backgroundColor = 'cyan'
     
     bannerBackground = bannerContent.style.backgroundImage
    
@@ -48,4 +54,21 @@ function loopFunction(delay, callback){
 };
 
 loopFunction(3000, passarFotos)
+
+
+function dotClicar(numero) {
+
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner0${numero}.png')`
+    document.getElementById(`dot1`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot2`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot3`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot4`).style.backgroundColor = 'cyan'
+    document.getElementById(`dot5`).style.backgroundColor = 'cyan'
+
+    let dotFoto = document.getElementById(`dot${numero}`)
+
+    dotFoto.style.backgroundColor = 'gray'
+
+
+}
 
