@@ -82,3 +82,20 @@
     background-size: cover;
     background-position: center;
 }
+
+
+
+@media(max-width: 768px) {
+    .banner-content2 {
+        height: 275px;
+        margin-top: 20px;
+    }
+
+    .sauce001 {
+        height: 400px;
+    }
+
+    .div002 {
+        height: 570px;
+    }
+}
