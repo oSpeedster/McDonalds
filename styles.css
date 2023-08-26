@@ -349,7 +349,6 @@
 
 .home-boxs {
     width: 390px;
-    margin-left: 280px;
 }
 
 .home-box {
@@ -357,11 +356,16 @@
     height: 300px;
 }
 
+.home-boxs2 {
+    width: 80%;
+}
+
 .home-box2 {
     width: 360px;
     height: 150px;
 
     margin-top: -150px;
+    margin-right: -80px;
 
 }
 
