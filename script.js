@@ -2,11 +2,17 @@
 
 let numero = 1
 
-let imagemSlide = ''
+let imagemSlide = 1
 
 let bannerContent = document.getElementById("banner-content")
 
 let bannerBackground = bannerContent.style.backgroundImage
+
+if(bannerBackground.match(/(\d+)/) == null) {
+    imagemSlide = 1
+} else {
+imagemSlide = parseInt(bannerBackground.match(/(\d+)/)[0])
+}
 
 // if(bannerBackground == '') bannerBackground = 'url("./assets/mc-banner01.png")'
 
@@ -24,12 +30,15 @@ function passarFotos()  {
    
     if(numero == 6) numero = 1
 
+    
+    
     bannerBackground = `url('./assets/mc-banner0${numero}.png')`
     
     bannerContent.style.backgroundImage = `url('./assets/mc-banner0${numero}.png')`
     
-    
     imagemSlide = parseInt(bannerBackground.match(/(\d+)/)[0])
+    
+    if((imagemSlide) != numero) console.log('teste')
     
     let dotFoto = document.getElementById(`dot${imagemSlide}`)
 
@@ -44,6 +53,7 @@ function passarFotos()  {
 
     numero = numero + 1
 
+
 }
 
 function loopFunction(delay, callback){
@@ -56,16 +66,21 @@ function loopFunction(delay, callback){
 loopFunction(3000, passarFotos)
 
 
-function dotClicar(numero) {
+function dotClicar(number) {
 
-    bannerContent.style.backgroundImage = `url('./assets/mc-banner0${numero}.png')`
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner0${number}.png')`
+
+    imagemSlide = number
+    
+    numero = imagemSlide
+
     document.getElementById(`dot1`).style.backgroundColor = 'cyan'
     document.getElementById(`dot2`).style.backgroundColor = 'cyan'
     document.getElementById(`dot3`).style.backgroundColor = 'cyan'
     document.getElementById(`dot4`).style.backgroundColor = 'cyan'
     document.getElementById(`dot5`).style.backgroundColor = 'cyan'
 
-    let dotFoto = document.getElementById(`dot${numero}`)
+    let dotFoto = document.getElementById(`dot${number}`)
 
     dotFoto.style.backgroundColor = 'gray'
 
