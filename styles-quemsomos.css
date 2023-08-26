@@ -25,6 +25,8 @@
     justify-items: center;
     align-items: center;
 
+    background-position: center;
+
     font-family: 'Lato', sans-serif;
 }
 
@@ -38,6 +40,13 @@
     justify-items: center;
 
     height: 350px;
+}
+
+.div-h1 {
+    display: flex;
+    margin-top: -175px;
+    margin-left: -23px;
+
 }
 
 .text {
