@@ -127,6 +127,7 @@
     height: 500px;
     background-image: url(./assets/sauce.png);
     background-color: yellow;
+    margin-top: -1px;
 }
 
 .div2 {

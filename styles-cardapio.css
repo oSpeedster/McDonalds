@@ -13,11 +13,12 @@
 
 
 .div01 {
-    height: 800px;
+    height: 750px;
 }
 
 .div02 {
     height: 800px;
+    margin-top: -27px;
 }
 
 .lanches-content {
