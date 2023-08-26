@@ -64,6 +64,11 @@
     margin-top: -35px;
 }
 
+.text b:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .image-mce {
     width: 230px;
     height: 230px;
