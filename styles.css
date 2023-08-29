@@ -230,6 +230,16 @@
     border: 1px solid #FFC000;
 }
 
+.home-boxs2-bg {
+    width: 845px;
+    height: 320px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 15px;
+}
+
 .home-boxs2 {
 
     width: 950px;
@@ -244,6 +254,7 @@
     height: 300px;
     border-radius: 10px;
     background-color: red;
+    border: 1px solid yellow;
 
     background-image: url(./assets/Banner_Rodapee_estamos_Juntos_01_410x180xp_809c5044aa.png);
 
