@@ -64,6 +64,11 @@
     color: yellow;
 }
 
+.header span:hover {
+    color: gray;
+    cursor: no-drop;
+}
+
 .mc-logo-div {
     width: 150px;
     height: 100px;

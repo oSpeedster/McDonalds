@@ -66,6 +66,11 @@
     color: darkred;
 
     cursor: pointer;
+    transition: 1s;
+}
+
+.lanches:hover {
+    transform: scale(1.2);
 }
 
 .titulo-sobremesa {
