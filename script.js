@@ -108,4 +108,15 @@ function menuAbrir() {
 
 }
 
+function carregarFotos() {
+    
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner01.png')`
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner02.png')`
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner03.png')`
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner04.png')`
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner05.png')`
 
+    bannerContent.style.backgroundImage = `url('./assets/mc-banner01.png')`
+
+
+}
