@@ -40,7 +40,7 @@
 }
 
 .lanches-box {
-    width: 90%;
+    width: 900px;
     height: 700px;
 
     display: grid;
@@ -112,6 +112,7 @@
 
     .lanches-box {
         grid-template-columns: repeat(3, 1fr);
+        width: 350px;
     }
 
     .lanches {
