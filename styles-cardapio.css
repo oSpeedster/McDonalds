@@ -138,3 +138,23 @@
 
 
 }
+
+
+@media(max-width: 800px) {
+
+    .lanches-box {
+        grid-template-columns: repeat(3, 1fr);
+
+        width: 750px;
+        height: 930px;
+    }
+
+    .div01 {
+        height: 940px;
+    }
+
+    .div02 {
+        height: 920px;
+    }
+
+}

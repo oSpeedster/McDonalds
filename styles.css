@@ -406,3 +406,28 @@
 }
 
 }
+
+@media(max-width: 800px) {
+
+    .home-boxs {
+        justify-content: space-evenly;
+    }
+
+    .home-boxs2-bg {
+        width: 770px;
+    }
+
+    .home-box2 {
+        width: 750px;
+        height: 300px;
+    }
+
+    .banner {
+        margin-top: -35px;
+    }
+
+    .banner-content {
+        height: 330px;
+    }
+
+}

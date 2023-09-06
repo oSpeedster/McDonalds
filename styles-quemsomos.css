@@ -104,3 +104,21 @@
         margin-right: 0px;
     }
 }
+
+
+@media(max-width: 800px) {
+
+    .text p {
+        margin-top: -140px;
+    }
+
+    .image-mce {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .div002 {
+        height: 510px;
+    }
+
+}
