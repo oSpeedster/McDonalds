@@ -431,3 +431,24 @@
     }
 
 }
+
+@media(min-width: 1280px) {
+
+    .sauce {
+        height: 625px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-boxs {
+        margin-top: -300px;
+    }
+
+    .div2- {
+        height: 590px;
+    }
+
+    .banner-content {
+        height: 500px;
+    }
+}
